@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IETE FAMILY</title>
+    <style>
+        body {
+            background-color: #ffe6e6; /* Light pink background */
+            padding: 20px;
+            color: #333; /* Dark text color */
+            position: relative; /* Relative positioning for back button */
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        h2 {
+            color: #555;
+        }
+
+        p {
+            color: #777;
+            font-size: 16px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        .back-button {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            z-index: 9999;
+        }
+
+        .back-button:hover {
+            background-color: #0056b3;
+        }
+
+        .person-container {
+            margin-top: 20px;
+            border-radius: 10px;
+            border: 1px solid #ddd;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .person-details img {
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+
+        /* Media Query for responsiveness */
+        @media screen and (max-width: 768px) {
+            .container {
+                width: 90%; /* Adjust width for smaller screens */
+            }
+
+            table {
+                font-size: 14px; /* Reduce font size for smaller screens */
+            }
+
+            .person-details img {
+                width: 100px; /* Adjust image size for smaller screens */
+                height: 100px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<h1>SRKR IETE FAMILY</h1>
+
+<div class="back-button" onclick="goBack()">
+    &larr; Back
+</div>
+
+<div class="container">
+    <div class="person-container">
+        <h2>HEAD OF THE DEPARTMENT:</h2>
+        <div class="person-details">
+            <img src="Assets/hod.jpg" height="200" width="200">
+            <p><b>Name:</b> Dr. N Udaya Kumar, Ph.D</p>
+            <p><b>Position:</b> Prof./HOD</p>
+            <p><b>Mail:</b> udayvas2005@gmail.com</p>
+            <p><b>Mobile:</b> 9440354093</p>
+            <p><b>Research Interests:</b> Digital Image Processing, Digital Signal Processing, VLSI</p>
+        </div>
+    </div>
+
+    <div class="person-container">
+        <h2>IETE ADVISOR:</h2>
+        <div class="person-details">
+            <img src="Assets/hymamam.jpg" height="200" width="200">
+            <p><b>Name:</b> Dr. T.V. Hyma Lakshmi, Ph.D</p>
+            <p><b>Position:</b> Asst. Prof</p>
+            <p><b>Mail:</b> tvhymalakshmi@gmail.com</p>
+            <p><b>Mobile:</b> 9440397598</p>
+            <p><b>Research Interests:</b> Image Processing</p>
+        </div>
+    </div>
+
+    <div class="person-container">
+        <h2>IETE CO-ORDINATOR:</h2>
+        <div class="person-details">
+            <img src="Assets/satyanarayana sir.jpg" height="200" width="200">
+            <p><b>Name:</b> Sri.K.N.V Satyanarayana, M.Tech</p>
+            <p><b>Position:</b> Asst. Prof</p>
+            <p><b>Mail:</b> knv.satyan@gmail.com</p>
+            <p><b>Mobile:</b> 9985136660</p>
+            <p><b>Research Interests:</b> Communication Systems</p>
+        </div>
+    </div>
+
+    <h2>EXECUTIVE BODY MEMBERS:</h2>
+    <table>
+        <tr>
+            <th>NAME</th>
+            <th>SECTION</th>
+            <th>REGD NO</th>
+        </tr>
+        <!-- Add SRKR IETE Executive Body members here -->
+        <!-- Sample data -->
+        <tr>
+          <td>E S V S Surya Vaishnavi</td>
+          <td>A</td>
+          <td>20B91A0469</td>
+        </tr>
+        <tr>
+          <td>D.Sai Charan</td>
+          <td>A</td>
+          <td>20B91A0468</td>
+        </tr>
+        <tr>
+          <td>Erothu Naga Sai Yashwanth</td>
+          <td>A</td>
+          <td>20B91A0470</td>
+        </tr>
+        <tr>
+          <td>G.Praveen Avinash</td>
+          <td>B</td>
+          <td>20B91A0484</td>
+        </tr>
+        <tr>
+          <td>K.Sai Manikanta</td>
+          <td>B</td>
+          <td>20B91A04C5</td>
+        </tr>
+        <tr>
+          <td>A N V Jashwanth</td>
+          <td>C</td>
+          <td>20B91A04G3</td>
+        </tr>
+        <tr>
+          <td>N Devakinandan</td>
+          <td>C</td>
+          <td>20B91A04H0</td>
+        </tr>
+        <tr>
+          <td>Saisankar Pothana</td>
+          <td>C</td>
+          <td>20B91A04J5</td>
+        </tr>
+        <tr>
+          <td>Gope Anitha</td>
+          <td>D</td>
+          <td>21B95A0408</td>
+        </tr>
+        <tr>
+          <td>T.Sudha Pravallika</td>
+          <td>D</td>
+          <td>20B91A04N2</td>
+        </tr>
+        <tr>
+          <td>Ajjarapu Manikanta</td>
+          <td>D</td>
+          <td>21B95A0402</td>
+        </tr>
+        <tr>
+          <td>Devuluri Raja Rajeswari</td>
+          <td>D</td>
+          <td>21B95A0406</td>
+        </tr>
+        <tr>
+          <td>Velpuri Usha Krupa Sri</td>
+          <td>D</td>
+          <td>20B91A04P8</td>
+        </tr>
+        <!-- Add more members here -->
+    </table>
+
+    <h2>SENIOR BODY MEMBERS:</h2>
+    <table>
+        <tr>
+            <th>NAME</th>
+            <th>SECTION</th>
+            <th>REGD NO</th>
+        </tr>
+        <!-- Add SRKR IETE Senior Body members here -->
+        <!-- Sample data -->
+        <tr>
+          <td>A.Satya Siva Sai Vithal</td>
+          <td>A</td>
+          <td>19B91A0417</td>
+        </tr>
+        <tr>
+          <td>Srivamsi Badagala</td>
+          <td>A</td>
+          <td>19B91A0418</td>
+        </tr>
+        <tr>
+          <td>Banda Tirumala Siva Naga Sai Vivek</td>
+          <td>A</td>
+          <td>19B91A0422</td>
+        </tr>
+        <tr>
+          <td>Busi Karunakar</td>
+          <td>A</td>
+          <td>19B91A0439</td>
+        </tr>
+        <tr>
+          <td>Ch.Sreeteja V V N S S D Varalakshmi</td>
+          <td>A</td>
+          <td>19B91A0417</td>
+        </tr>
+        <tr>
+          <td>Dasari Sri Naga Sindhu</td>
+          <td>A</td>
+          <td>19B91A0455</td>
+        </tr>
+        <tr>
+          <td>Dusanapudi Jayarama Ganesh</td>
+          <td>A</td>
+          <td>19B91A0462</td>
+        </tr>
+        <tr>
+          <td>Ch.Balaji</td>
+          <td>A</td>
+          <td>20B95A0402</td>
+        </tr>
+        <tr>
+          <td>G.Siva Kiran</td>
+          <td>B</td>
+          <td>19B91A0475</td>
+        </tr>
+        <tr>
+          <td>K.Prasanth Kumar</td>
+          <td>B</td>
+          <td>20B95A0408</td>
+        </tr>
+        <tr>
+          <td>N.Jayaram</td>
+          <td>C</td>
+          <td>19B91A04F7</td>
+        </tr>
+        <tr>
+          <td>P M S R Hemanth Srikar</td>
+          <td>C</td>
+          <td>19B91A04G5</td>
+        </tr>
+        <tr>
+          <td>R B N V S Maha Lakshmi Devi</td>
+          <td>C</td>
+          <td>20B95A0417</td>
+        </tr>
+        <tr>
+          <td>S.Bhanu Rekha</td>
+          <td>C</td>
+          <td>20B95A0418</td>
+        </tr>
+        <tr>
+          <td>L.Sainath Reddy</td>
+          <td>D</td>
+          <td>19B91A04J7</td>
+        </tr>
+        <tr>
+          <td>Shaik Yahud Hussain</td>
+          <td>D</td>
+          <td>19B91A04L3</td>
+        </tr>
+        <tr>
+          <td>K Siva Sai Manikanta</td>
+          <td>D</td>
+          <td>19B91A04L6</td>
+        </tr>
+
+        <!-- Add more members here -->
+    </table>
+</div>
+
+<script>
+    function goBack() {
+        window.history.back();
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>   
+<head>   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Contact Us</title>
+    <style> 
+        /* Style the Sticky icons on web page */ 
+        body {
+            background-color: #ffe6e6; /* Light pink background */
+            padding: 20px;
+            color: #333; /* Dark text color */
+            font-family: Arial, sans-serif;
+            position: relative; /* Relative positioning for back button */
+        }
+        
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            background-color: #f9f9f9; /* Light gray background for container */
+            border-radius: 10px; /* Rounded corners for container */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for container */
+            padding: 20px;
+            text-align: center; /* Center align content */
+            margin-bottom: 30px; /* Add margin at the bottom */
+        }
+        
+        h1 {
+            font-size: 36px; /* Larger text for the heading */
+            margin-bottom: 30px;
+        }
+        
+        .stickyicon-list { 
+            display: flex;
+            justify-content: center; /* Center align horizontally */
+            margin-top: 30px; /* Add top margin */
+        }
+        
+        .stickyicon-list a { 
+            display: block; 
+            text-align: center; 
+            padding: 20px; 
+            transition: all 0.5s ease; 
+            color: white; 
+            font-size: 170px; /* Larger size for icons */
+            border-radius: 50%; /* Rounded shape for icons */
+            margin: 0 20px; /* Increase spacing between icons */
+        }
+        
+        /* Hover effect on sticky social media icons */ 
+        .stickyicon-list a:hover { 
+            transform: scale(1.2); /* Increase size on hover */
+        }
+        
+        /* Design each icon of social media */       
+        .facebook { 
+            background: #3b5998; 
+        }       
+        
+        .mail { 
+            background: #db4a39; 
+        } 
+        
+        .instagram { 
+            background: #3f729b; 
+        }       
+        
+        /* Style for back button */
+        .back-button {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            z-index: 999; /* Ensure it's above other content */
+        }
+
+        .back-button a {
+            text-decoration: none;
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            font-weight: bold;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            outline: none;
+        }
+
+        .back-button a:hover {
+            background-color: #0056b3;
+        }
+
+        /* Media query for responsiveness */
+        @media only screen and (max-width: 768px) {
+            .container {
+                width: 90%;
+            }
+
+            .stickyicon-list a {
+                font-size: 100px; /* Adjust icon size for smaller screens */
+            }
+        }
+    </style> 
+</head>
+<body>
+
+<div class="back-button">
+    <a href="#" onclick="history.go(-1); return false;">&larr; Back</a>
+</div>
+
+<div class="container">
+    <h1>Contact us on our social media pages</h1>
+</div>
+
+<div class="stickyicon-list">
+    <a href="https://www.facebook.com/SrkrIETE/?mibextid=LQQJ4d" class="facebook"> 
+        <i class="fa fa-facebook"></i> 
+    </a> 
+    <a href="mailto:srkriete@gmail.com" class="mail"> 
+        <i class="fa fa-envelope"></i> 
+    </a>   
+    <a href="https://instagram.com/srkr_iete?igshid=YmMyMTA2M2Y=" class="instagram"> 
+        <i class="fa fa-instagram"></i> 
+    </a> 
+</div> 
+
+</body>
+</html>
